@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to KOK Sports LuckyWheel
 
 You can use the [editor on GitHub](https://github.com/KOKOSeries/LuckyWheel/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
