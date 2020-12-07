@@ -1,0 +1,6 @@
+framework module Pods_LuckyWheel {
+  umbrella header "Pods-LuckyWheel-umbrella.h"
+
+  export *
+  module * { export * }
+}
