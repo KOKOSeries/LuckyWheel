@@ -28,12 +28,13 @@
     
     // 转盘View
     self.turntable = [[TurntableView alloc] initWithFrame:view.bounds];
-    [self.turntable.playButton addTarget:self action:@selector(startAnimaition) forControlEvents:UIControlEventTouchUpInside];
+    [self.turntable.playButton addTarget:self action:@selector(startAnimaition:) forControlEvents:UIControlEventTouchUpInside];
     [view addSubview:self.turntable];
 }
 
--(void)startAnimaition
+-(void)startAnimaition:(UIButton*)btn
 {
+    btn.enabled = NO;
     NSInteger turnAngle;
     NSInteger randomNum = arc4random()%100;//控制概率
     NSInteger turnsNum = 4;//控制圈数
@@ -59,6 +60,7 @@
 //    self.label.text = [NSString stringWithFormat:@"恭喜您抽中%@",self.labelText];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.resultView show];
+        btn.enabled =YES;
     });
     
 }
