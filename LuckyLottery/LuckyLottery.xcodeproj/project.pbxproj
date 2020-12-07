@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A9CF52257B6E1500F7617A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CF51257B6E1500F7617A /* AppDelegate.m */; };
+		40A9CF55257B6E1500F7617A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CF54257B6E1500F7617A /* SceneDelegate.m */; };
+		40A9CF58257B6E1500F7617A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CF57257B6E1500F7617A /* ViewController.m */; };
+		40A9CF5B257B6E1500F7617A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CF59257B6E1500F7617A /* Main.storyboard */; };
+		40A9CF5D257B6E1800F7617A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CF5C257B6E1800F7617A /* Assets.xcassets */; };
+		40A9CF60257B6E1800F7617A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CF5E257B6E1800F7617A /* LaunchScreen.storyboard */; };
+		40A9CF63257B6E1800F7617A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CF62257B6E1800F7617A /* main.m */; };
+		40A9CF6D257B6E1900F7617A /* LuckyLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CF6C257B6E1900F7617A /* LuckyLotteryTests.m */; };
+		40A9CF78257B6E1900F7617A /* LuckyLotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CF77257B6E1900F7617A /* LuckyLotteryUITests.m */; };
+		40A9CF8A257B709900F7617A /* KOKLuckyLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CF89257B709900F7617A /* KOKLuckyLotteryView.m */; };
+		40A9CF92257B70A200F7617A /* KOKLuckyLotteryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CF91257B70A200F7617A /* KOKLuckyLotteryView.xib */; };
+		40A9CFB2257E092000F7617A /* KOKLotteryWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFB1257E092000F7617A /* KOKLotteryWheelView.m */; };
+		40A9CFBA257E093400F7617A /* KOKLotteryWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CFB9257E093400F7617A /* KOKLotteryWheelView.xib */; };
+		40A9CFC3257E0C1800F7617A /* TurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFC0257E0C1800F7617A /* TurntableView.m */; };
+		40A9CFC4257E0C1800F7617A /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFC1257E0C1800F7617A /* YZXPieGraphView.m */; };
+		40A9CFD7257E1B3400F7617A /* KOKResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFD6257E1B3300F7617A /* KOKResultView.m */; };
+		40A9CFDC257E1B4900F7617A /* KOKResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CFDB257E1B4900F7617A /* KOKResultView.xib */; };
+		40A9CFE1257E286000F7617A /* giftList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CFE0257E286000F7617A /* giftList.plist */; };
+		40A9CFE7257E2BB000F7617A /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFE5257E2BB000F7617A /* UIView+Addition.m */; };
+		40A9CFED257E2FAA00F7617A /* KOKRecordsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFEC257E2FAA00F7617A /* KOKRecordsVC.m */; };
+		40A9CFF4257E2FC800F7617A /* KOKRecordsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9CFF2257E2FC800F7617A /* KOKRecordsCell.m */; };
+		40A9CFF5257E2FC800F7617A /* KOKRecordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9CFF3257E2FC800F7617A /* KOKRecordsCell.xib */; };
+		5802E22C67F6DF85B13569CE /* Pods_LuckyLottery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2701BFD7D8D2789C5A358DCD /* Pods_LuckyLottery.framework */; };
+		A0FBC06DC31E708579A88341 /* Pods_LuckyLottery_LuckyLotteryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FA7CE116630499DB3F0466 /* Pods_LuckyLottery_LuckyLotteryUITests.framework */; };
+		FBC4E60FB833A98C2801EC3D /* Pods_LuckyLotteryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB3820BFD9D25A5A08F6934 /* Pods_LuckyLotteryTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A9CF69257B6E1900F7617A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A9CF45257B6E1500F7617A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A9CF4C257B6E1500F7617A;
+			remoteInfo = LuckyLottery;
+		};
+		40A9CF74257B6E1900F7617A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A9CF45257B6E1500F7617A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A9CF4C257B6E1500F7617A;
+			remoteInfo = LuckyLottery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2701BFD7D8D2789C5A358DCD /* Pods_LuckyLottery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyLottery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9CF4D257B6E1500F7617A /* LuckyLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9CF50257B6E1500F7617A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40A9CF51257B6E1500F7617A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40A9CF53257B6E1500F7617A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		40A9CF54257B6E1500F7617A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		40A9CF56257B6E1500F7617A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40A9CF57257B6E1500F7617A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40A9CF5A257B6E1500F7617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40A9CF5C257B6E1800F7617A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40A9CF5F257B6E1800F7617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40A9CF61257B6E1800F7617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A9CF62257B6E1800F7617A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40A9CF68257B6E1900F7617A /* LuckyLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9CF6C257B6E1900F7617A /* LuckyLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyLotteryTests.m; sourceTree = "<group>"; };
+		40A9CF6E257B6E1900F7617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A9CF73257B6E1900F7617A /* LuckyLotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyLotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9CF77257B6E1900F7617A /* LuckyLotteryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyLotteryUITests.m; sourceTree = "<group>"; };
+		40A9CF79257B6E1900F7617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A9CF88257B709900F7617A /* KOKLuckyLotteryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKLuckyLotteryView.h; sourceTree = "<group>"; };
+		40A9CF89257B709900F7617A /* KOKLuckyLotteryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKLuckyLotteryView.m; sourceTree = "<group>"; };
+		40A9CF91257B70A200F7617A /* KOKLuckyLotteryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KOKLuckyLotteryView.xib; sourceTree = "<group>"; };
+		40A9CF98257B7A7200F7617A /* KOKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKPrefixHeader.pch; sourceTree = "<group>"; };
+		40A9CFB0257E092000F7617A /* KOKLotteryWheelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKLotteryWheelView.h; sourceTree = "<group>"; };
+		40A9CFB1257E092000F7617A /* KOKLotteryWheelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKLotteryWheelView.m; sourceTree = "<group>"; };
+		40A9CFB9257E093400F7617A /* KOKLotteryWheelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KOKLotteryWheelView.xib; sourceTree = "<group>"; };
+		40A9CFBF257E0C1800F7617A /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
+		40A9CFC0257E0C1800F7617A /* TurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableView.m; sourceTree = "<group>"; };
+		40A9CFC1257E0C1800F7617A /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
+		40A9CFC2257E0C1800F7617A /* TurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableView.h; sourceTree = "<group>"; };
+		40A9CFD5257E1B3300F7617A /* KOKResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKResultView.h; sourceTree = "<group>"; };
+		40A9CFD6257E1B3300F7617A /* KOKResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKResultView.m; sourceTree = "<group>"; };
+		40A9CFDB257E1B4900F7617A /* KOKResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KOKResultView.xib; sourceTree = "<group>"; };
+		40A9CFE0257E286000F7617A /* giftList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = giftList.plist; sourceTree = "<group>"; };
+		40A9CFE5257E2BB000F7617A /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		40A9CFE6257E2BB000F7617A /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		40A9CFEB257E2FAA00F7617A /* KOKRecordsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKRecordsVC.h; sourceTree = "<group>"; };
+		40A9CFEC257E2FAA00F7617A /* KOKRecordsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKRecordsVC.m; sourceTree = "<group>"; };
+		40A9CFF1257E2FC800F7617A /* KOKRecordsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKRecordsCell.h; sourceTree = "<group>"; };
+		40A9CFF2257E2FC800F7617A /* KOKRecordsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKRecordsCell.m; sourceTree = "<group>"; };
+		40A9CFF3257E2FC800F7617A /* KOKRecordsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KOKRecordsCell.xib; sourceTree = "<group>"; };
+		6575E06BE677DA2E51CB5C1F /* Pods-LuckyLottery-LuckyLotteryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyLottery-LuckyLotteryUITests.release.xcconfig"; path = "Target Support Files/Pods-LuckyLottery-LuckyLotteryUITests/Pods-LuckyLottery-LuckyLotteryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FB3820BFD9D25A5A08F6934 /* Pods_LuckyLotteryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyLotteryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FC1EEB626A007EA90DFFA9 /* Pods-LuckyLottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyLottery.debug.xcconfig"; path = "Target Support Files/Pods-LuckyLottery/Pods-LuckyLottery.debug.xcconfig"; sourceTree = "<group>"; };
+		83D1F17044397FB598FAF321 /* Pods-LuckyLotteryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyLotteryTests.release.xcconfig"; path = "Target Support Files/Pods-LuckyLotteryTests/Pods-LuckyLotteryTests.release.xcconfig"; sourceTree = "<group>"; };
+		9203217973665625662EE1BB /* Pods-LuckyLottery-LuckyLotteryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyLottery-LuckyLotteryUITests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyLottery-LuckyLotteryUITests/Pods-LuckyLottery-LuckyLotteryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3FA7CE116630499DB3F0466 /* Pods_LuckyLottery_LuckyLotteryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyLottery_LuckyLotteryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EAE7DF9DFBD28D726FD485 /* Pods-LuckyLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyLottery.release.xcconfig"; path = "Target Support Files/Pods-LuckyLottery/Pods-LuckyLottery.release.xcconfig"; sourceTree = "<group>"; };
+		E7F72593B4E4995E8E9F01BA /* Pods-LuckyLotteryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyLotteryTests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyLotteryTests/Pods-LuckyLotteryTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A9CF4A257B6E1500F7617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5802E22C67F6DF85B13569CE /* Pods_LuckyLottery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9CF65257B6E1900F7617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC4E60FB833A98C2801EC3D /* Pods_LuckyLotteryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9CF70257B6E1900F7617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FBC06DC31E708579A88341 /* Pods_LuckyLottery_LuckyLotteryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A9CF44257B6E1500F7617A = {
+			isa = PBXGroup;
+			children = (
+				40A9CF4F257B6E1500F7617A /* LuckyLottery */,
+				40A9CF6B257B6E1900F7617A /* LuckyLotteryTests */,
+				40A9CF76257B6E1900F7617A /* LuckyLotteryUITests */,
+				40A9CF4E257B6E1500F7617A /* Products */,
+				A875427A0ACA7AD8DB25BCFE /* Pods */,
+				4E8DACD032E1F4A039FC9A73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40A9CF4E257B6E1500F7617A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CF4D257B6E1500F7617A /* LuckyLottery.app */,
+				40A9CF68257B6E1900F7617A /* LuckyLotteryTests.xctest */,
+				40A9CF73257B6E1900F7617A /* LuckyLotteryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A9CF4F257B6E1500F7617A /* LuckyLottery */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CF50257B6E1500F7617A /* AppDelegate.h */,
+				40A9CF51257B6E1500F7617A /* AppDelegate.m */,
+				40A9CF53257B6E1500F7617A /* SceneDelegate.h */,
+				40A9CF54257B6E1500F7617A /* SceneDelegate.m */,
+				40A9CF56257B6E1500F7617A /* ViewController.h */,
+				40A9CF57257B6E1500F7617A /* ViewController.m */,
+				40A9CFAF257E06EB00F7617A /* wheel */,
+				40A9CF97257B7A5600F7617A /* custom */,
+				40A9CF59257B6E1500F7617A /* Main.storyboard */,
+				40A9CF5C257B6E1800F7617A /* Assets.xcassets */,
+				40A9CF5E257B6E1800F7617A /* LaunchScreen.storyboard */,
+				40A9CF61257B6E1800F7617A /* Info.plist */,
+				40A9CF62257B6E1800F7617A /* main.m */,
+			);
+			path = LuckyLottery;
+			sourceTree = "<group>";
+		};
+		40A9CF6B257B6E1900F7617A /* LuckyLotteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CF6C257B6E1900F7617A /* LuckyLotteryTests.m */,
+				40A9CF6E257B6E1900F7617A /* Info.plist */,
+			);
+			path = LuckyLotteryTests;
+			sourceTree = "<group>";
+		};
+		40A9CF76257B6E1900F7617A /* LuckyLotteryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CF77257B6E1900F7617A /* LuckyLotteryUITests.m */,
+				40A9CF79257B6E1900F7617A /* Info.plist */,
+			);
+			path = LuckyLotteryUITests;
+			sourceTree = "<group>";
+		};
+		40A9CF97257B7A5600F7617A /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CF88257B709900F7617A /* KOKLuckyLotteryView.h */,
+				40A9CF89257B709900F7617A /* KOKLuckyLotteryView.m */,
+				40A9CF91257B70A200F7617A /* KOKLuckyLotteryView.xib */,
+				40A9CF98257B7A7200F7617A /* KOKPrefixHeader.pch */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		40A9CFAF257E06EB00F7617A /* wheel */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CFBE257E0C1800F7617A /* YZXPieGraphView */,
+				40A9CFB0257E092000F7617A /* KOKLotteryWheelView.h */,
+				40A9CFB1257E092000F7617A /* KOKLotteryWheelView.m */,
+				40A9CFB9257E093400F7617A /* KOKLotteryWheelView.xib */,
+				40A9CFD5257E1B3300F7617A /* KOKResultView.h */,
+				40A9CFD6257E1B3300F7617A /* KOKResultView.m */,
+				40A9CFDB257E1B4900F7617A /* KOKResultView.xib */,
+				40A9CFE0257E286000F7617A /* giftList.plist */,
+				40A9CFEB257E2FAA00F7617A /* KOKRecordsVC.h */,
+				40A9CFEC257E2FAA00F7617A /* KOKRecordsVC.m */,
+				40A9CFF1257E2FC800F7617A /* KOKRecordsCell.h */,
+				40A9CFF2257E2FC800F7617A /* KOKRecordsCell.m */,
+				40A9CFF3257E2FC800F7617A /* KOKRecordsCell.xib */,
+			);
+			path = wheel;
+			sourceTree = "<group>";
+		};
+		40A9CFBE257E0C1800F7617A /* YZXPieGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				40A9CFE6257E2BB000F7617A /* UIView+Addition.h */,
+				40A9CFE5257E2BB000F7617A /* UIView+Addition.m */,
+				40A9CFC2257E0C1800F7617A /* TurntableView.h */,
+				40A9CFC0257E0C1800F7617A /* TurntableView.m */,
+				40A9CFBF257E0C1800F7617A /* YZXPieGraphView.h */,
+				40A9CFC1257E0C1800F7617A /* YZXPieGraphView.m */,
+			);
+			path = YZXPieGraphView;
+			sourceTree = "<group>";
+		};
+		4E8DACD032E1F4A039FC9A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2701BFD7D8D2789C5A358DCD /* Pods_LuckyLottery.framework */,
+				B3FA7CE116630499DB3F0466 /* Pods_LuckyLottery_LuckyLotteryUITests.framework */,
+				6FB3820BFD9D25A5A08F6934 /* Pods_LuckyLotteryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A875427A0ACA7AD8DB25BCFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82FC1EEB626A007EA90DFFA9 /* Pods-LuckyLottery.debug.xcconfig */,
+				D0EAE7DF9DFBD28D726FD485 /* Pods-LuckyLottery.release.xcconfig */,
+				9203217973665625662EE1BB /* Pods-LuckyLottery-LuckyLotteryUITests.debug.xcconfig */,
+				6575E06BE677DA2E51CB5C1F /* Pods-LuckyLottery-LuckyLotteryUITests.release.xcconfig */,
+				E7F72593B4E4995E8E9F01BA /* Pods-LuckyLotteryTests.debug.xcconfig */,
+				83D1F17044397FB598FAF321 /* Pods-LuckyLotteryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A9CF4C257B6E1500F7617A /* LuckyLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A9CF7C257B6E1900F7617A /* Build configuration list for PBXNativeTarget "LuckyLottery" */;
+			buildPhases = (
+				BC5BE7741372E28039066D91 /* [CP] Check Pods Manifest.lock */,
+				40A9CF49257B6E1500F7617A /* Sources */,
+				40A9CF4A257B6E1500F7617A /* Frameworks */,
+				40A9CF4B257B6E1500F7617A /* Resources */,
+				F967259321722CBE2B4BF725 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyLottery;
+			productName = LuckyLottery;
+			productReference = 40A9CF4D257B6E1500F7617A /* LuckyLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A9CF67257B6E1900F7617A /* LuckyLotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A9CF7F257B6E1900F7617A /* Build configuration list for PBXNativeTarget "LuckyLotteryTests" */;
+			buildPhases = (
+				3C670D5259922115EB507979 /* [CP] Check Pods Manifest.lock */,
+				40A9CF64257B6E1900F7617A /* Sources */,
+				40A9CF65257B6E1900F7617A /* Frameworks */,
+				40A9CF66257B6E1900F7617A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A9CF6A257B6E1900F7617A /* PBXTargetDependency */,
+			);
+			name = LuckyLotteryTests;
+			productName = LuckyLotteryTests;
+			productReference = 40A9CF68257B6E1900F7617A /* LuckyLotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40A9CF72257B6E1900F7617A /* LuckyLotteryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A9CF82257B6E1900F7617A /* Build configuration list for PBXNativeTarget "LuckyLotteryUITests" */;
+			buildPhases = (
+				61494161C9877A5B2CD4C88B /* [CP] Check Pods Manifest.lock */,
+				40A9CF6F257B6E1900F7617A /* Sources */,
+				40A9CF70257B6E1900F7617A /* Frameworks */,
+				40A9CF71257B6E1900F7617A /* Resources */,
+				C26BA4DB53A285CAC96C9C5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A9CF75257B6E1900F7617A /* PBXTargetDependency */,
+			);
+			name = LuckyLotteryUITests;
+			productName = LuckyLotteryUITests;
+			productReference = 40A9CF73257B6E1900F7617A /* LuckyLotteryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A9CF45257B6E1500F7617A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KOK;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					40A9CF4C257B6E1500F7617A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					40A9CF67257B6E1900F7617A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 40A9CF4C257B6E1500F7617A;
+					};
+					40A9CF72257B6E1900F7617A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 40A9CF4C257B6E1500F7617A;
+					};
+				};
+			};
+			buildConfigurationList = 40A9CF48257B6E1500F7617A /* Build configuration list for PBXProject "LuckyLottery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A9CF44257B6E1500F7617A;
+			productRefGroup = 40A9CF4E257B6E1500F7617A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A9CF4C257B6E1500F7617A /* LuckyLottery */,
+				40A9CF67257B6E1900F7617A /* LuckyLotteryTests */,
+				40A9CF72257B6E1900F7617A /* LuckyLotteryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A9CF4B257B6E1500F7617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9CF60257B6E1800F7617A /* LaunchScreen.storyboard in Resources */,
+				40A9CF5D257B6E1800F7617A /* Assets.xcassets in Resources */,
+				40A9CFF5257E2FC800F7617A /* KOKRecordsCell.xib in Resources */,
+				40A9CFBA257E093400F7617A /* KOKLotteryWheelView.xib in Resources */,
+				40A9CF5B257B6E1500F7617A /* Main.storyboard in Resources */,
+				40A9CF92257B70A200F7617A /* KOKLuckyLotteryView.xib in Resources */,
+				40A9CFE1257E286000F7617A /* giftList.plist in Resources */,
+				40A9CFDC257E1B4900F7617A /* KOKResultView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9CF66257B6E1900F7617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9CF71257B6E1900F7617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C670D5259922115EB507979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyLotteryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61494161C9877A5B2CD4C88B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyLottery-LuckyLotteryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5BE7741372E28039066D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyLottery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26BA4DB53A285CAC96C9C5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyLottery-LuckyLotteryUITests/Pods-LuckyLottery-LuckyLotteryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyLottery-LuckyLotteryUITests/Pods-LuckyLottery-LuckyLotteryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyLottery-LuckyLotteryUITests/Pods-LuckyLottery-LuckyLotteryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F967259321722CBE2B4BF725 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyLottery/Pods-LuckyLottery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyLottery/Pods-LuckyLottery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyLottery/Pods-LuckyLottery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A9CF49257B6E1500F7617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9CFB2257E092000F7617A /* KOKLotteryWheelView.m in Sources */,
+				40A9CF58257B6E1500F7617A /* ViewController.m in Sources */,
+				40A9CFC4257E0C1800F7617A /* YZXPieGraphView.m in Sources */,
+				40A9CFC3257E0C1800F7617A /* TurntableView.m in Sources */,
+				40A9CFED257E2FAA00F7617A /* KOKRecordsVC.m in Sources */,
+				40A9CFD7257E1B3400F7617A /* KOKResultView.m in Sources */,
+				40A9CF8A257B709900F7617A /* KOKLuckyLotteryView.m in Sources */,
+				40A9CFE7257E2BB000F7617A /* UIView+Addition.m in Sources */,
+				40A9CF52257B6E1500F7617A /* AppDelegate.m in Sources */,
+				40A9CF63257B6E1800F7617A /* main.m in Sources */,
+				40A9CFF4257E2FC800F7617A /* KOKRecordsCell.m in Sources */,
+				40A9CF55257B6E1500F7617A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9CF64257B6E1900F7617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9CF6D257B6E1900F7617A /* LuckyLotteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9CF6F257B6E1900F7617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9CF78257B6E1900F7617A /* LuckyLotteryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A9CF6A257B6E1900F7617A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A9CF4C257B6E1500F7617A /* LuckyLottery */;
+			targetProxy = 40A9CF69257B6E1900F7617A /* PBXContainerItemProxy */;
+		};
+		40A9CF75257B6E1900F7617A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A9CF4C257B6E1500F7617A /* LuckyLottery */;
+			targetProxy = 40A9CF74257B6E1900F7617A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40A9CF59257B6E1500F7617A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A9CF5A257B6E1500F7617A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40A9CF5E257B6E1800F7617A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A9CF5F257B6E1800F7617A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A9CF7A257B6E1900F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40A9CF7B257B6E1900F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A9CF7D257B6E1900F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82FC1EEB626A007EA90DFFA9 /* Pods-LuckyLottery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckyLottery/custom/KOKPrefixHeader.pch";
+				INFOPLIST_FILE = LuckyLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyLottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40A9CF7E257B6E1900F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EAE7DF9DFBD28D726FD485 /* Pods-LuckyLottery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckyLottery/custom/KOKPrefixHeader.pch";
+				INFOPLIST_FILE = LuckyLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyLottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40A9CF80257B6E1900F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F72593B4E4995E8E9F01BA /* Pods-LuckyLotteryTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyLotteryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyLotteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyLottery.app/LuckyLottery";
+			};
+			name = Debug;
+		};
+		40A9CF81257B6E1900F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D1F17044397FB598FAF321 /* Pods-LuckyLotteryTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyLotteryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyLotteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyLottery.app/LuckyLottery";
+			};
+			name = Release;
+		};
+		40A9CF83257B6E1900F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9203217973665625662EE1BB /* Pods-LuckyLottery-LuckyLotteryUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyLotteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyLotteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyLottery;
+			};
+			name = Debug;
+		};
+		40A9CF84257B6E1900F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6575E06BE677DA2E51CB5C1F /* Pods-LuckyLottery-LuckyLotteryUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyLotteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyLotteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyLottery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A9CF48257B6E1500F7617A /* Build configuration list for PBXProject "LuckyLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9CF7A257B6E1900F7617A /* Debug */,
+				40A9CF7B257B6E1900F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A9CF7C257B6E1900F7617A /* Build configuration list for PBXNativeTarget "LuckyLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9CF7D257B6E1900F7617A /* Debug */,
+				40A9CF7E257B6E1900F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A9CF7F257B6E1900F7617A /* Build configuration list for PBXNativeTarget "LuckyLotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9CF80257B6E1900F7617A /* Debug */,
+				40A9CF81257B6E1900F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A9CF82257B6E1900F7617A /* Build configuration list for PBXNativeTarget "LuckyLotteryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9CF83257B6E1900F7617A /* Debug */,
+				40A9CF84257B6E1900F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A9CF45257B6E1500F7617A /* Project object */;
+}

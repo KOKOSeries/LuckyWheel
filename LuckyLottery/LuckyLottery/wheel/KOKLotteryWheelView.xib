@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KOKLotteryWheelView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_turntable_out" translatesAutoresizingMaskIntoConstraints="NO" id="qo3-6j-toy">
+                    <rect key="frame" x="28.5" y="120" width="357" height="360"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="357" id="NIK-Rb-Q62"/>
+                        <constraint firstAttribute="height" constant="360" id="RGA-w5-lID"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_turntable_inner" translatesAutoresizingMaskIntoConstraints="NO" id="PAQ-mt-K6h">
+                    <rect key="frame" x="71" y="164" width="272" height="272"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="272" id="W0u-oI-6q1"/>
+                        <constraint firstAttribute="height" constant="272" id="oej-97-116"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_turntable_ring" translatesAutoresizingMaskIntoConstraints="NO" id="OEk-5U-89c">
+                    <rect key="frame" x="97" y="190" width="220" height="220"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="220" id="6fA-U5-yzB"/>
+                        <constraint firstAttribute="height" constant="220" id="yOV-cy-g4I"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKR-gl-aVn">
+                    <rect key="frame" x="157" y="500" width="100" height="40"/>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.16862745100000001" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Ioz-fZ-QD2"/>
+                        <constraint firstAttribute="height" constant="40" id="NB3-FP-tUj"/>
+                    </constraints>
+                    <state key="normal" title="records">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="recordsBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="yZg-3b-5U9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="OEk-5U-89c" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2Xz-M5-aJo"/>
+                <constraint firstItem="hKR-gl-aVn" firstAttribute="top" secondItem="qo3-6j-toy" secondAttribute="bottom" constant="20" id="746-Ws-L23"/>
+                <constraint firstItem="hKR-gl-aVn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="P7s-K9-afn"/>
+                <constraint firstItem="PAQ-mt-K6h" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YPp-mZ-C3Z"/>
+                <constraint firstItem="qo3-6j-toy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bW1-RE-2PN"/>
+                <constraint firstItem="PAQ-mt-K6h" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="do6-XQ-gT6"/>
+                <constraint firstItem="OEk-5U-89c" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="gSl-Ef-elJ"/>
+                <constraint firstItem="qo3-6j-toy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kGn-Vd-GXj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgBack" destination="PAQ-mt-K6h" id="yZ8-SU-WpS"/>
+                <outlet property="recordsBtn" destination="hKR-gl-aVn" id="KSu-Ub-hDo"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_turntable_inner" width="708" height="708"/>
+        <image name="bg_turntable_out" width="948" height="948"/>
+        <image name="bg_turntable_ring" width="600" height="600"/>
+    </resources>
+</document>
