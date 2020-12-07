@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gifts</key>
+	<array>
+		<dict>
+			<key>giftNumber</key>
+			<string>0</string>
+			<key>gittName</key>
+			<string>Lollipop</string>
+			<key>giftImage</key>
+			<string>棒棒糖</string>
+			<key>giftDescriptiion</key>
+			<string>Love lollipop, full of vitality all day</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>1</string>
+			<key>gittName</key>
+			<string>pants</string>
+			<key>giftImage</key>
+			<string>裤子</string>
+			<key>giftDescriptiion</key>
+			<string>Fashionable clothes and pants make you look young</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>2</string>
+			<key>gittName</key>
+			<string>Elderly machine</string>
+			<key>giftImage</key>
+			<string>老人机</string>
+			<key>giftDescriptiion</key>
+			<string>If the body is old and the heart is not old, use Nokia to catch up with the times</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>3</string>
+			<key>gittName</key>
+			<string>Bag</string>
+			<key>giftImage</key>
+			<string>包包</string>
+			<key>giftDescriptiion</key>
+			<string>Love lollWoman&apos;s bag, man&apos;s heartipop, full of vitality all day</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>4</string>
+			<key>gittName</key>
+			<string>Notes</string>
+			<key>giftImage</key>
+			<string>笔记本</string>
+			<key>giftDescriptiion</key>
+			<string>Using notes,feeling technology</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>5</string>
+			<key>gittName</key>
+			<string>Pear</string>
+			<key>giftImage</key>
+			<string>梨</string>
+			<key>giftDescriptiion</key>
+			<string>everyday eat pear,everyday feel happy</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>6</string>
+			<key>gittName</key>
+			<string>Hat</string>
+			<key>giftImage</key>
+			<string>帽子</string>
+			<key>giftDescriptiion</key>
+			<string>wear hat, show your handsome</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>7</string>
+			<key>gittName</key>
+			<string>CowboyHat</string>
+			<key>giftImage</key>
+			<string>牛仔帽</string>
+			<key>giftDescriptiion</key>
+			<string>wear cowboyhat,enjoy western mood</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>8</string>
+			<key>gittName</key>
+			<string>girl&apos;s T-shirt</string>
+			<key>giftImage</key>
+			<string>女装T恤</string>
+			<key>giftDescriptiion</key>
+			<string>the girl&apos;s T-shirt,for your girlfriend.</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>9</string>
+			<key>gittName</key>
+			<string>Belt</string>
+			<key>giftImage</key>
+			<string>皮带</string>
+			<key>giftDescriptiion</key>
+			<string>hold on the belt, hold on your boy</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>10</string>
+			<key>gittName</key>
+			<string>Leather shoes</string>
+			<key>giftImage</key>
+			<string>皮鞋</string>
+			<key>giftDescriptiion</key>
+			<string>wear the leather shoes, taste the man style</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>11</string>
+			<key>gittName</key>
+			<string>Leather boots</string>
+			<key>giftImage</key>
+			<string>皮靴</string>
+			<key>giftDescriptiion</key>
+			<string>wear the leather boots, show your sixy</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>12</string>
+			<key>gittName</key>
+			<string>macbook</string>
+			<key>giftImage</key>
+			<string>苹果电脑</string>
+			<key>giftDescriptiion</key>
+			<string>stay hungry,stay foolish</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>13</string>
+			<key>gittName</key>
+			<string>phone</string>
+			<key>giftImage</key>
+			<string>手机</string>
+			<key>giftDescriptiion</key>
+			<string>use phone,close your relationship</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>14</string>
+			<key>gittName</key>
+			<string>apple</string>
+			<key>giftImage</key>
+			<string>水果苹果</string>
+			<key>giftDescriptiion</key>
+			<string>An apple a day keeps the doctor away</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>15</string>
+			<key>gittName</key>
+			<string>Plastic shoes</string>
+			<key>giftImage</key>
+			<string>塑料鞋</string>
+			<key>giftDescriptiion</key>
+			<string>Plastic shoes,go around the world</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>16</string>
+			<key>gittName</key>
+			<string>Washing machine</string>
+			<key>giftImage</key>
+			<string>洗衣机</string>
+			<key>giftDescriptiion</key>
+			<string>washing your old life</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>17</string>
+			<key>gittName</key>
+			<string>Sport shoes</string>
+			<key>giftImage</key>
+			<string>运动鞋</string>
+			<key>giftDescriptiion</key>
+			<string>sport shoes,sport life</string>
+		</dict>
+		<dict>
+			<key>giftNumber</key>
+			<string>18</string>
+			<key>gittName</key>
+			<string>T-shirts</string>
+			<key>giftImage</key>
+			<string>T恤</string>
+			<key>giftDescriptiion</key>
+			<string>wear T-shirts, wear fashion</string>
+			<key>New item</key>
+			<dict>
+				<key>giftNumber</key>
+				<string>0</string>
+				<key>gittName</key>
+				<string>Lollipop</string>
+				<key>giftImage</key>
+				<string>Logo</string>
+				<key>giftDescriptiion</key>
+				<string>Love lollipop, full of vitality all day</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

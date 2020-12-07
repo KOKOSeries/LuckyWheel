@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A9D112257E472100F7617A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D111257E472100F7617A /* AppDelegate.m */; };
+		40A9D115257E472100F7617A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D114257E472100F7617A /* SceneDelegate.m */; };
+		40A9D118257E472100F7617A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D117257E472100F7617A /* ViewController.m */; };
+		40A9D11B257E472100F7617A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A9D119257E472100F7617A /* Main.storyboard */; };
+		40A9D11D257E472200F7617A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A9D11C257E472200F7617A /* Assets.xcassets */; };
+		40A9D120257E472200F7617A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A9D11E257E472200F7617A /* LaunchScreen.storyboard */; };
+		40A9D123257E472200F7617A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D122257E472200F7617A /* main.m */; };
+		40A9D12D257E472300F7617A /* LuckyWheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D12C257E472300F7617A /* LuckyWheelTests.m */; };
+		40A9D138257E472300F7617A /* LuckyWheelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D137257E472300F7617A /* LuckyWheelUITests.m */; };
+		40A9D16D257E481600F7617A /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D15B257E481500F7617A /* UIView+Addition.m */; };
+		40A9D16E257E481600F7617A /* TurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D15D257E481500F7617A /* TurntableView.m */; };
+		40A9D16F257E481600F7617A /* YZXPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D15F257E481500F7617A /* YZXPieGraphView.m */; };
+		40A9D170257E481600F7617A /* KOKRecordsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D161257E481500F7617A /* KOKRecordsVC.m */; };
+		40A9D171257E481600F7617A /* KOKRecordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9D162257E481500F7617A /* KOKRecordsCell.xib */; };
+		40A9D172257E481600F7617A /* KOKResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9D166257E481500F7617A /* KOKResultView.xib */; };
+		40A9D173257E481600F7617A /* KOKResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D168257E481500F7617A /* KOKResultView.m */; };
+		40A9D174257E481600F7617A /* KOKLotteryWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D169257E481500F7617A /* KOKLotteryWheelView.m */; };
+		40A9D175257E481600F7617A /* KOKRecordsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A9D16A257E481500F7617A /* KOKRecordsCell.m */; };
+		40A9D176257E481600F7617A /* KOKLotteryWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A9D16B257E481500F7617A /* KOKLotteryWheelView.xib */; };
+		40A9D177257E481600F7617A /* giftList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40A9D16C257E481500F7617A /* giftList.plist */; };
+		5BE57F5C23F6E8B8A88A43CA /* Pods_LuckyWheel_LuckyWheelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BFD9B392618C2C4EBE92D9 /* Pods_LuckyWheel_LuckyWheelUITests.framework */; };
+		81420CB43D338F02BD18A895 /* Pods_LuckyWheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4C418E4942FC7D8D2D1C4D /* Pods_LuckyWheel.framework */; };
+		D1BF6BC041662536E334673A /* Pods_LuckyWheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD7B77E3528DAF450154C30 /* Pods_LuckyWheelTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A9D129257E472300F7617A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A9D105257E472100F7617A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A9D10C257E472100F7617A;
+			remoteInfo = LuckyWheel;
+		};
+		40A9D134257E472300F7617A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A9D105257E472100F7617A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A9D10C257E472100F7617A;
+			remoteInfo = LuckyWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD0EAFB7EE333B7AFEF99C1 /* Pods-LuckyWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheel.release.xcconfig"; path = "Target Support Files/Pods-LuckyWheel/Pods-LuckyWheel.release.xcconfig"; sourceTree = "<group>"; };
+		3AD7B77E3528DAF450154C30 /* Pods_LuckyWheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyWheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9D10D257E472100F7617A /* LuckyWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9D110257E472100F7617A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40A9D111257E472100F7617A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40A9D113257E472100F7617A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		40A9D114257E472100F7617A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		40A9D116257E472100F7617A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40A9D117257E472100F7617A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40A9D11A257E472100F7617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40A9D11C257E472200F7617A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40A9D11F257E472200F7617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40A9D121257E472200F7617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A9D122257E472200F7617A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40A9D128257E472300F7617A /* LuckyWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9D12C257E472300F7617A /* LuckyWheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyWheelTests.m; sourceTree = "<group>"; };
+		40A9D12E257E472300F7617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A9D133257E472300F7617A /* LuckyWheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyWheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A9D137257E472300F7617A /* LuckyWheelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyWheelUITests.m; sourceTree = "<group>"; };
+		40A9D139257E472300F7617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A9D148257E475900F7617A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		40A9D15B257E481500F7617A /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		40A9D15C257E481500F7617A /* YZXPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXPieGraphView.h; sourceTree = "<group>"; };
+		40A9D15D257E481500F7617A /* TurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableView.m; sourceTree = "<group>"; };
+		40A9D15E257E481500F7617A /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		40A9D15F257E481500F7617A /* YZXPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXPieGraphView.m; sourceTree = "<group>"; };
+		40A9D160257E481500F7617A /* TurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableView.h; sourceTree = "<group>"; };
+		40A9D161257E481500F7617A /* KOKRecordsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOKRecordsVC.m; sourceTree = "<group>"; };
+		40A9D162257E481500F7617A /* KOKRecordsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KOKRecordsCell.xib; sourceTree = "<group>"; };
+		40A9D163257E481500F7617A /* KOKRecordsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKRecordsCell.h; sourceTree = "<group>"; };
+		40A9D164257E481500F7617A /* KOKLotteryWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKLotteryWheelView.h; sourceTree = "<group>"; };
+		40A9D165257E481500F7617A /* KOKResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKResultView.h; sourceTree = "<group>"; };
+		40A9D166257E481500F7617A /* KOKResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KOKResultView.xib; sourceTree = "<group>"; };
+		40A9D167257E481500F7617A /* KOKRecordsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOKRecordsVC.h; sourceTree = "<group>"; };
+		40A9D168257E481500F7617A /* KOKResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOKResultView.m; sourceTree = "<group>"; };
+		40A9D169257E481500F7617A /* KOKLotteryWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOKLotteryWheelView.m; sourceTree = "<group>"; };
+		40A9D16A257E481500F7617A /* KOKRecordsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOKRecordsCell.m; sourceTree = "<group>"; };
+		40A9D16B257E481500F7617A /* KOKLotteryWheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KOKLotteryWheelView.xib; sourceTree = "<group>"; };
+		40A9D16C257E481500F7617A /* giftList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = giftList.plist; sourceTree = "<group>"; };
+		6B2C2AB4B47FF2E225C21EB9 /* Pods-LuckyWheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheelTests.release.xcconfig"; path = "Target Support Files/Pods-LuckyWheelTests/Pods-LuckyWheelTests.release.xcconfig"; sourceTree = "<group>"; };
+		77BFD9B392618C2C4EBE92D9 /* Pods_LuckyWheel_LuckyWheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyWheel_LuckyWheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B30E5B5C21DAACF63440D2D /* Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig"; path = "Target Support Files/Pods-LuckyWheel-LuckyWheelUITests/Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1379C479F86DA6103D1A6C8 /* Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyWheel-LuckyWheelUITests/Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D10CCAC84433B9087EE2DC5B /* Pods-LuckyWheelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheelTests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyWheelTests/Pods-LuckyWheelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4C418E4942FC7D8D2D1C4D /* Pods_LuckyWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB722526924AB49C0413DA0B /* Pods-LuckyWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheel.debug.xcconfig"; path = "Target Support Files/Pods-LuckyWheel/Pods-LuckyWheel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A9D10A257E472100F7617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81420CB43D338F02BD18A895 /* Pods_LuckyWheel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9D125257E472300F7617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BF6BC041662536E334673A /* Pods_LuckyWheelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9D130257E472300F7617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE57F5C23F6E8B8A88A43CA /* Pods_LuckyWheel_LuckyWheelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3281014856F0779A408A884D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB722526924AB49C0413DA0B /* Pods-LuckyWheel.debug.xcconfig */,
+				1DD0EAFB7EE333B7AFEF99C1 /* Pods-LuckyWheel.release.xcconfig */,
+				C1379C479F86DA6103D1A6C8 /* Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig */,
+				9B30E5B5C21DAACF63440D2D /* Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig */,
+				D10CCAC84433B9087EE2DC5B /* Pods-LuckyWheelTests.debug.xcconfig */,
+				6B2C2AB4B47FF2E225C21EB9 /* Pods-LuckyWheelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		40A9D104257E472100F7617A = {
+			isa = PBXGroup;
+			children = (
+				40A9D10F257E472100F7617A /* LuckyWheel */,
+				40A9D12B257E472300F7617A /* LuckyWheelTests */,
+				40A9D136257E472300F7617A /* LuckyWheelUITests */,
+				40A9D10E257E472100F7617A /* Products */,
+				3281014856F0779A408A884D /* Pods */,
+				677126EC11B0331C45B75225 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40A9D10E257E472100F7617A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A9D10D257E472100F7617A /* LuckyWheel.app */,
+				40A9D128257E472300F7617A /* LuckyWheelTests.xctest */,
+				40A9D133257E472300F7617A /* LuckyWheelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A9D10F257E472100F7617A /* LuckyWheel */ = {
+			isa = PBXGroup;
+			children = (
+				40A9D110257E472100F7617A /* AppDelegate.h */,
+				40A9D111257E472100F7617A /* AppDelegate.m */,
+				40A9D113257E472100F7617A /* SceneDelegate.h */,
+				40A9D114257E472100F7617A /* SceneDelegate.m */,
+				40A9D116257E472100F7617A /* ViewController.h */,
+				40A9D117257E472100F7617A /* ViewController.m */,
+				40A9D159257E481500F7617A /* wheel */,
+				40A9D148257E475900F7617A /* PrefixHeader.pch */,
+				40A9D119257E472100F7617A /* Main.storyboard */,
+				40A9D11C257E472200F7617A /* Assets.xcassets */,
+				40A9D11E257E472200F7617A /* LaunchScreen.storyboard */,
+				40A9D121257E472200F7617A /* Info.plist */,
+				40A9D122257E472200F7617A /* main.m */,
+			);
+			path = LuckyWheel;
+			sourceTree = "<group>";
+		};
+		40A9D12B257E472300F7617A /* LuckyWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A9D12C257E472300F7617A /* LuckyWheelTests.m */,
+				40A9D12E257E472300F7617A /* Info.plist */,
+			);
+			path = LuckyWheelTests;
+			sourceTree = "<group>";
+		};
+		40A9D136257E472300F7617A /* LuckyWheelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40A9D137257E472300F7617A /* LuckyWheelUITests.m */,
+				40A9D139257E472300F7617A /* Info.plist */,
+			);
+			path = LuckyWheelUITests;
+			sourceTree = "<group>";
+		};
+		40A9D159257E481500F7617A /* wheel */ = {
+			isa = PBXGroup;
+			children = (
+				40A9D15A257E481500F7617A /* YZXPieGraphView */,
+				40A9D161257E481500F7617A /* KOKRecordsVC.m */,
+				40A9D162257E481500F7617A /* KOKRecordsCell.xib */,
+				40A9D163257E481500F7617A /* KOKRecordsCell.h */,
+				40A9D164257E481500F7617A /* KOKLotteryWheelView.h */,
+				40A9D165257E481500F7617A /* KOKResultView.h */,
+				40A9D166257E481500F7617A /* KOKResultView.xib */,
+				40A9D167257E481500F7617A /* KOKRecordsVC.h */,
+				40A9D168257E481500F7617A /* KOKResultView.m */,
+				40A9D169257E481500F7617A /* KOKLotteryWheelView.m */,
+				40A9D16A257E481500F7617A /* KOKRecordsCell.m */,
+				40A9D16B257E481500F7617A /* KOKLotteryWheelView.xib */,
+				40A9D16C257E481500F7617A /* giftList.plist */,
+			);
+			path = wheel;
+			sourceTree = "<group>";
+		};
+		40A9D15A257E481500F7617A /* YZXPieGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				40A9D15B257E481500F7617A /* UIView+Addition.m */,
+				40A9D15C257E481500F7617A /* YZXPieGraphView.h */,
+				40A9D15D257E481500F7617A /* TurntableView.m */,
+				40A9D15E257E481500F7617A /* UIView+Addition.h */,
+				40A9D15F257E481500F7617A /* YZXPieGraphView.m */,
+				40A9D160257E481500F7617A /* TurntableView.h */,
+			);
+			path = YZXPieGraphView;
+			sourceTree = "<group>";
+		};
+		677126EC11B0331C45B75225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C418E4942FC7D8D2D1C4D /* Pods_LuckyWheel.framework */,
+				77BFD9B392618C2C4EBE92D9 /* Pods_LuckyWheel_LuckyWheelUITests.framework */,
+				3AD7B77E3528DAF450154C30 /* Pods_LuckyWheelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A9D10C257E472100F7617A /* LuckyWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A9D13C257E472300F7617A /* Build configuration list for PBXNativeTarget "LuckyWheel" */;
+			buildPhases = (
+				5A8BDD62CC39345BEE13C7A8 /* [CP] Check Pods Manifest.lock */,
+				40A9D109257E472100F7617A /* Sources */,
+				40A9D10A257E472100F7617A /* Frameworks */,
+				40A9D10B257E472100F7617A /* Resources */,
+				C8445C67EEE1678BD287545E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyWheel;
+			productName = LuckyWheel;
+			productReference = 40A9D10D257E472100F7617A /* LuckyWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A9D127257E472300F7617A /* LuckyWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A9D13F257E472300F7617A /* Build configuration list for PBXNativeTarget "LuckyWheelTests" */;
+			buildPhases = (
+				98FD6756C98C25EBD335736A /* [CP] Check Pods Manifest.lock */,
+				40A9D124257E472300F7617A /* Sources */,
+				40A9D125257E472300F7617A /* Frameworks */,
+				40A9D126257E472300F7617A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A9D12A257E472300F7617A /* PBXTargetDependency */,
+			);
+			name = LuckyWheelTests;
+			productName = LuckyWheelTests;
+			productReference = 40A9D128257E472300F7617A /* LuckyWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40A9D132257E472300F7617A /* LuckyWheelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A9D142257E472300F7617A /* Build configuration list for PBXNativeTarget "LuckyWheelUITests" */;
+			buildPhases = (
+				9811218167E9391BE39F5836 /* [CP] Check Pods Manifest.lock */,
+				40A9D12F257E472300F7617A /* Sources */,
+				40A9D130257E472300F7617A /* Frameworks */,
+				40A9D131257E472300F7617A /* Resources */,
+				9D9FAA45F1D8919B90FD6ED7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A9D135257E472300F7617A /* PBXTargetDependency */,
+			);
+			name = LuckyWheelUITests;
+			productName = LuckyWheelUITests;
+			productReference = 40A9D133257E472300F7617A /* LuckyWheelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A9D105257E472100F7617A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					40A9D10C257E472100F7617A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					40A9D127257E472300F7617A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 40A9D10C257E472100F7617A;
+					};
+					40A9D132257E472300F7617A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 40A9D10C257E472100F7617A;
+					};
+				};
+			};
+			buildConfigurationList = 40A9D108257E472100F7617A /* Build configuration list for PBXProject "LuckyWheel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A9D104257E472100F7617A;
+			productRefGroup = 40A9D10E257E472100F7617A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A9D10C257E472100F7617A /* LuckyWheel */,
+				40A9D127257E472300F7617A /* LuckyWheelTests */,
+				40A9D132257E472300F7617A /* LuckyWheelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A9D10B257E472100F7617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9D120257E472200F7617A /* LaunchScreen.storyboard in Resources */,
+				40A9D172257E481600F7617A /* KOKResultView.xib in Resources */,
+				40A9D11D257E472200F7617A /* Assets.xcassets in Resources */,
+				40A9D171257E481600F7617A /* KOKRecordsCell.xib in Resources */,
+				40A9D176257E481600F7617A /* KOKLotteryWheelView.xib in Resources */,
+				40A9D177257E481600F7617A /* giftList.plist in Resources */,
+				40A9D11B257E472100F7617A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9D126257E472300F7617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9D131257E472300F7617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A8BDD62CC39345BEE13C7A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyWheel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9811218167E9391BE39F5836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyWheel-LuckyWheelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FD6756C98C25EBD335736A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyWheelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D9FAA45F1D8919B90FD6ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyWheel-LuckyWheelUITests/Pods-LuckyWheel-LuckyWheelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyWheel-LuckyWheelUITests/Pods-LuckyWheel-LuckyWheelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyWheel-LuckyWheelUITests/Pods-LuckyWheel-LuckyWheelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8445C67EEE1678BD287545E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyWheel/Pods-LuckyWheel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyWheel/Pods-LuckyWheel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyWheel/Pods-LuckyWheel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A9D109257E472100F7617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9D16F257E481600F7617A /* YZXPieGraphView.m in Sources */,
+				40A9D170257E481600F7617A /* KOKRecordsVC.m in Sources */,
+				40A9D118257E472100F7617A /* ViewController.m in Sources */,
+				40A9D16D257E481600F7617A /* UIView+Addition.m in Sources */,
+				40A9D173257E481600F7617A /* KOKResultView.m in Sources */,
+				40A9D16E257E481600F7617A /* TurntableView.m in Sources */,
+				40A9D112257E472100F7617A /* AppDelegate.m in Sources */,
+				40A9D123257E472200F7617A /* main.m in Sources */,
+				40A9D174257E481600F7617A /* KOKLotteryWheelView.m in Sources */,
+				40A9D115257E472100F7617A /* SceneDelegate.m in Sources */,
+				40A9D175257E481600F7617A /* KOKRecordsCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9D124257E472300F7617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9D12D257E472300F7617A /* LuckyWheelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A9D12F257E472300F7617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A9D138257E472300F7617A /* LuckyWheelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A9D12A257E472300F7617A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A9D10C257E472100F7617A /* LuckyWheel */;
+			targetProxy = 40A9D129257E472300F7617A /* PBXContainerItemProxy */;
+		};
+		40A9D135257E472300F7617A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A9D10C257E472100F7617A /* LuckyWheel */;
+			targetProxy = 40A9D134257E472300F7617A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40A9D119257E472100F7617A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A9D11A257E472100F7617A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40A9D11E257E472200F7617A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A9D11F257E472200F7617A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A9D13A257E472300F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40A9D13B257E472300F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A9D13D257E472300F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB722526924AB49C0413DA0B /* Pods-LuckyWheel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckyWheel/PrefixHeader.pch";
+				INFOPLIST_FILE = LuckyWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40A9D13E257E472300F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD0EAFB7EE333B7AFEF99C1 /* Pods-LuckyWheel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckyWheel/PrefixHeader.pch";
+				INFOPLIST_FILE = LuckyWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40A9D140257E472300F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10CCAC84433B9087EE2DC5B /* Pods-LuckyWheelTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyWheelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyWheel.app/LuckyWheel";
+			};
+			name = Debug;
+		};
+		40A9D141257E472300F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2C2AB4B47FF2E225C21EB9 /* Pods-LuckyWheelTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyWheelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyWheel.app/LuckyWheel";
+			};
+			name = Release;
+		};
+		40A9D143257E472300F7617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1379C479F86DA6103D1A6C8 /* Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyWheel;
+			};
+			name = Debug;
+		};
+		40A9D144257E472300F7617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B30E5B5C21DAACF63440D2D /* Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LuckyWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyWheel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A9D108257E472100F7617A /* Build configuration list for PBXProject "LuckyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9D13A257E472300F7617A /* Debug */,
+				40A9D13B257E472300F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A9D13C257E472300F7617A /* Build configuration list for PBXNativeTarget "LuckyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9D13D257E472300F7617A /* Debug */,
+				40A9D13E257E472300F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A9D13F257E472300F7617A /* Build configuration list for PBXNativeTarget "LuckyWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9D140257E472300F7617A /* Debug */,
+				40A9D141257E472300F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A9D142257E472300F7617A /* Build configuration list for PBXNativeTarget "LuckyWheelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A9D143257E472300F7617A /* Debug */,
+				40A9D144257E472300F7617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A9D105257E472100F7617A /* Project object */;
+}
