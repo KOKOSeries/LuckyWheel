@@ -1,2 +1,2 @@
 # LuckyWheel
-【a lucky wheel](https://kokoseries.github.io/LuckyWheel/)
+[a lucky wheel](https://kokoseries.github.io/LuckyWheel/)
