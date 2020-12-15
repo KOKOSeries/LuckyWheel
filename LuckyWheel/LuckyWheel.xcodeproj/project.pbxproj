@@ -30,6 +30,23 @@
 		5BE57F5C23F6E8B8A88A43CA /* Pods_LuckyWheel_LuckyWheelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BFD9B392618C2C4EBE92D9 /* Pods_LuckyWheel_LuckyWheelUITests.framework */; };
 		81420CB43D338F02BD18A895 /* Pods_LuckyWheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4C418E4942FC7D8D2D1C4D /* Pods_LuckyWheel.framework */; };
 		D1BF6BC041662536E334673A /* Pods_LuckyWheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD7B77E3528DAF450154C30 /* Pods_LuckyWheelTests.framework */; };
+		E3FFB9782588049E00AA255B /* KOKGIftCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9762588049E00AA255B /* KOKGIftCardVC.m */; };
+		E3FFB9792588049E00AA255B /* KOKGIftCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FFB9772588049E00AA255B /* KOKGIftCardVC.xib */; };
+		E3FFB981258806B600AA255B /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB97F258806B600AA255B /* WMDragView.m */; };
+		E3FFB9C32588177500AA255B /* Asd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9C22588177500AA255B /* Asd.swift */; };
+		E3FFB9D22588191900AA255B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9CA2588191900AA255B /* ViewController.swift */; };
+		E3FFB9D32588191900AA255B /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9CB2588191900AA255B /* FloatyWindow.swift */; };
+		E3FFB9D42588191900AA255B /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9CC2588191900AA255B /* FloatyManager.swift */; };
+		E3FFB9D52588191900AA255B /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9CD2588191900AA255B /* FloatyItem.swift */; };
+		E3FFB9D62588191900AA255B /* UIView+Draggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9CE2588191900AA255B /* UIView+Draggable.swift */; };
+		E3FFB9D72588191900AA255B /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9CF2588191900AA255B /* FloatyViewController.swift */; };
+		E3FFB9D82588191900AA255B /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9D02588191900AA255B /* Floaty.swift */; };
+		E3FFB9D92588191900AA255B /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFB9D12588191900AA255B /* FloatyDelegate.swift */; };
+		E3FFBA2D2588206B00AA255B /* WeiboLikeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FFBA272588206B00AA255B /* WeiboLikeMenu.m */; };
+		E3FFBA2E2588206B00AA255B /* UIView+CommonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FFBA2A2588206B00AA255B /* UIView+CommonAnimation.m */; };
+		E3FFBA2F2588206B00AA255B /* WeiboLikeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FFBA2C2588206B00AA255B /* WeiboLikeMenuItem.m */; };
+		E3FFBA5325882ECC00AA255B /* PreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FFBA5025882ECC00AA255B /* PreViewController.m */; };
+		E3FFBA5425882ECC00AA255B /* PreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FFBA5225882ECC00AA255B /* PreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +111,31 @@
 		9B30E5B5C21DAACF63440D2D /* Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig"; path = "Target Support Files/Pods-LuckyWheel-LuckyWheelUITests/Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C1379C479F86DA6103D1A6C8 /* Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyWheel-LuckyWheelUITests/Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D10CCAC84433B9087EE2DC5B /* Pods-LuckyWheelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheelTests.debug.xcconfig"; path = "Target Support Files/Pods-LuckyWheelTests/Pods-LuckyWheelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FFB9752588049E00AA255B /* KOKGIftCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKGIftCardVC.h; sourceTree = "<group>"; };
+		E3FFB9762588049E00AA255B /* KOKGIftCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKGIftCardVC.m; sourceTree = "<group>"; };
+		E3FFB9772588049E00AA255B /* KOKGIftCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KOKGIftCardVC.xib; sourceTree = "<group>"; };
+		E3FFB97F258806B600AA255B /* WMDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDragView.m; sourceTree = "<group>"; };
+		E3FFB980258806B600AA255B /* WMDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDragView.h; sourceTree = "<group>"; };
+		E3FFB9C12588177500AA255B /* LuckyWheel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuckyWheel-Bridging-Header.h"; sourceTree = "<group>"; };
+		E3FFB9C22588177500AA255B /* Asd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asd.swift; sourceTree = "<group>"; };
+		E3FFB9C92588191900AA255B /* Floaty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floaty.h; sourceTree = "<group>"; };
+		E3FFB9CA2588191900AA255B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3FFB9CB2588191900AA255B /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyWindow.swift; sourceTree = "<group>"; };
+		E3FFB9CC2588191900AA255B /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyManager.swift; sourceTree = "<group>"; };
+		E3FFB9CD2588191900AA255B /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyItem.swift; sourceTree = "<group>"; };
+		E3FFB9CE2588191900AA255B /* UIView+Draggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Draggable.swift"; sourceTree = "<group>"; };
+		E3FFB9CF2588191900AA255B /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyViewController.swift; sourceTree = "<group>"; };
+		E3FFB9D02588191900AA255B /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floaty.swift; sourceTree = "<group>"; };
+		E3FFB9D12588191900AA255B /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyDelegate.swift; sourceTree = "<group>"; };
+		E3FFBA272588206B00AA255B /* WeiboLikeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboLikeMenu.m; sourceTree = "<group>"; };
+		E3FFBA282588206B00AA255B /* UIView+CommonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CommonAnimation.h"; sourceTree = "<group>"; };
+		E3FFBA292588206B00AA255B /* WeiboLikeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboLikeMenuItem.h; sourceTree = "<group>"; };
+		E3FFBA2A2588206B00AA255B /* UIView+CommonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CommonAnimation.m"; sourceTree = "<group>"; };
+		E3FFBA2B2588206B00AA255B /* WeiboLikeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboLikeMenu.h; sourceTree = "<group>"; };
+		E3FFBA2C2588206B00AA255B /* WeiboLikeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboLikeMenuItem.m; sourceTree = "<group>"; };
+		E3FFBA5025882ECC00AA255B /* PreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreViewController.m; sourceTree = "<group>"; };
+		E3FFBA5125882ECC00AA255B /* PreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreViewController.h; sourceTree = "<group>"; };
+		E3FFBA5225882ECC00AA255B /* PreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreViewController.xib; sourceTree = "<group>"; };
 		EA4C418E4942FC7D8D2D1C4D /* Pods_LuckyWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB722526924AB49C0413DA0B /* Pods-LuckyWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyWheel.debug.xcconfig"; path = "Target Support Files/Pods-LuckyWheel/Pods-LuckyWheel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,10 +253,16 @@
 				40A9D166257E481500F7617A /* KOKResultView.xib */,
 				40A9D167257E481500F7617A /* KOKRecordsVC.h */,
 				40A9D161257E481500F7617A /* KOKRecordsVC.m */,
+				E3FFB97E258806B600AA255B /* UI */,
+				E3FFB9762588049E00AA255B /* KOKGIftCardVC.m */,
+				E3FFB9752588049E00AA255B /* KOKGIftCardVC.h */,
+				E3FFB9772588049E00AA255B /* KOKGIftCardVC.xib */,
 				40A9D164257E481500F7617A /* KOKLotteryWheelView.h */,
 				40A9D169257E481500F7617A /* KOKLotteryWheelView.m */,
+				E3FFB9C22588177500AA255B /* Asd.swift */,
 				40A9D16B257E481500F7617A /* KOKLotteryWheelView.xib */,
 				40A9D16C257E481500F7617A /* giftList.plist */,
+				E3FFB9C12588177500AA255B /* LuckyWheel-Bridging-Header.h */,
 			);
 			path = wheel;
 			sourceTree = "<group>";
@@ -240,6 +288,49 @@
 				3AD7B77E3528DAF450154C30 /* Pods_LuckyWheelTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FFB97E258806B600AA255B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E3FFBA5125882ECC00AA255B /* PreViewController.h */,
+				E3FFBA5025882ECC00AA255B /* PreViewController.m */,
+				E3FFBA5225882ECC00AA255B /* PreViewController.xib */,
+				E3FFBA262588206B00AA255B /* WeiboLikeMenu */,
+				E3FFB9C82588191900AA255B /* floatBtn */,
+				E3FFB980258806B600AA255B /* WMDragView.h */,
+				E3FFB97F258806B600AA255B /* WMDragView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E3FFB9C82588191900AA255B /* floatBtn */ = {
+			isa = PBXGroup;
+			children = (
+				E3FFB9C92588191900AA255B /* Floaty.h */,
+				E3FFB9CA2588191900AA255B /* ViewController.swift */,
+				E3FFB9CB2588191900AA255B /* FloatyWindow.swift */,
+				E3FFB9CC2588191900AA255B /* FloatyManager.swift */,
+				E3FFB9CD2588191900AA255B /* FloatyItem.swift */,
+				E3FFB9CE2588191900AA255B /* UIView+Draggable.swift */,
+				E3FFB9CF2588191900AA255B /* FloatyViewController.swift */,
+				E3FFB9D02588191900AA255B /* Floaty.swift */,
+				E3FFB9D12588191900AA255B /* FloatyDelegate.swift */,
+			);
+			path = floatBtn;
+			sourceTree = "<group>";
+		};
+		E3FFBA262588206B00AA255B /* WeiboLikeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E3FFBA282588206B00AA255B /* UIView+CommonAnimation.h */,
+				E3FFBA2A2588206B00AA255B /* UIView+CommonAnimation.m */,
+				E3FFBA2B2588206B00AA255B /* WeiboLikeMenu.h */,
+				E3FFBA272588206B00AA255B /* WeiboLikeMenu.m */,
+				E3FFBA292588206B00AA255B /* WeiboLikeMenuItem.h */,
+				E3FFBA2C2588206B00AA255B /* WeiboLikeMenuItem.m */,
+			);
+			path = WeiboLikeMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +404,7 @@
 				TargetAttributes = {
 					40A9D10C257E472100F7617A = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1220;
 					};
 					40A9D127257E472300F7617A = {
 						CreatedOnToolsVersion = 12.0;
@@ -352,7 +444,9 @@
 				40A9D120257E472200F7617A /* LaunchScreen.storyboard in Resources */,
 				40A9D172257E481600F7617A /* KOKResultView.xib in Resources */,
 				40A9D11D257E472200F7617A /* Assets.xcassets in Resources */,
+				E3FFBA5425882ECC00AA255B /* PreViewController.xib in Resources */,
 				40A9D171257E481600F7617A /* KOKRecordsCell.xib in Resources */,
+				E3FFB9792588049E00AA255B /* KOKGIftCardVC.xib in Resources */,
 				40A9D176257E481600F7617A /* KOKLotteryWheelView.xib in Resources */,
 				40A9D177257E481600F7617A /* giftList.plist in Resources */,
 				40A9D11B257E472100F7617A /* Main.storyboard in Resources */,
@@ -483,17 +577,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FFBA2E2588206B00AA255B /* UIView+CommonAnimation.m in Sources */,
+				E3FFB9D22588191900AA255B /* ViewController.swift in Sources */,
 				40A9D16F257E481600F7617A /* YZXPieGraphView.m in Sources */,
 				40A9D170257E481600F7617A /* KOKRecordsVC.m in Sources */,
+				E3FFB9D72588191900AA255B /* FloatyViewController.swift in Sources */,
 				40A9D118257E472100F7617A /* ViewController.m in Sources */,
+				E3FFB9D32588191900AA255B /* FloatyWindow.swift in Sources */,
+				E3FFB9D82588191900AA255B /* Floaty.swift in Sources */,
+				E3FFBA5325882ECC00AA255B /* PreViewController.m in Sources */,
 				40A9D16D257E481600F7617A /* UIView+Addition.m in Sources */,
+				E3FFB9C32588177500AA255B /* Asd.swift in Sources */,
+				E3FFB9782588049E00AA255B /* KOKGIftCardVC.m in Sources */,
+				E3FFB9D62588191900AA255B /* UIView+Draggable.swift in Sources */,
 				40A9D173257E481600F7617A /* KOKResultView.m in Sources */,
+				E3FFBA2F2588206B00AA255B /* WeiboLikeMenuItem.m in Sources */,
 				40A9D16E257E481600F7617A /* TurntableView.m in Sources */,
 				40A9D112257E472100F7617A /* AppDelegate.m in Sources */,
+				E3FFBA2D2588206B00AA255B /* WeiboLikeMenu.m in Sources */,
 				40A9D123257E472200F7617A /* main.m in Sources */,
+				E3FFB9D92588191900AA255B /* FloatyDelegate.swift in Sources */,
 				40A9D174257E481600F7617A /* KOKLotteryWheelView.m in Sources */,
 				40A9D115257E472100F7617A /* SceneDelegate.m in Sources */,
+				E3FFB9D42588191900AA255B /* FloatyManager.swift in Sources */,
+				E3FFB981258806B600AA255B /* WMDragView.m in Sources */,
 				40A9D175257E481600F7617A /* KOKRecordsCell.m in Sources */,
+				E3FFB9D52588191900AA255B /* FloatyItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,8 +775,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HYJ9TYA8XL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckyWheel/PrefixHeader.pch";
 				INFOPLIST_FILE = LuckyWheel/Info.plist;
@@ -677,6 +787,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = luckywheel.football.KOK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuckyWheel/wheel/LuckyWheel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -687,8 +800,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HYJ9TYA8XL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckyWheel/PrefixHeader.pch";
 				INFOPLIST_FILE = LuckyWheel/Info.plist;
@@ -698,6 +812,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = luckywheel.football.KOK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuckyWheel/wheel/LuckyWheel-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -706,6 +822,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D10CCAC84433B9087EE2DC5B /* Pods-LuckyWheelTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LuckyWheelTests/Info.plist;
@@ -726,6 +843,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B2C2AB4B47FF2E225C21EB9 /* Pods-LuckyWheelTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LuckyWheelTests/Info.plist;
@@ -746,6 +864,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1379C479F86DA6103D1A6C8 /* Pods-LuckyWheel-LuckyWheelUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LuckyWheelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -764,6 +883,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B30E5B5C21DAACF63440D2D /* Pods-LuckyWheel-LuckyWheelUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LuckyWheelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

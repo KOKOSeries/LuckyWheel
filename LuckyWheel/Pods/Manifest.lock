@@ -1,16 +1,30 @@
 PODS:
+  - DZNEmptyDataSet (1.8.1)
   - Masonry (1.1.0)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
 
 DEPENDENCIES:
+  - DZNEmptyDataSet
   - Masonry
+  - SDCycleScrollView
 
 SPEC REPOS:
   trunk:
+    - DZNEmptyDataSet
     - Masonry
+    - SDCycleScrollView
+    - SDWebImage
 
 SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
 
-PODFILE CHECKSUM: 9c6194d591ad648bde16802836297325aa776c43
+PODFILE CHECKSUM: 95918c345b9053eb41cc9497e3f71538376f260e
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0

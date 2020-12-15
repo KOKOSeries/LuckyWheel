@@ -4,7 +4,10 @@
 target 'LuckyWheel' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'DZNEmptyDataSet'
+#  pod 'Floaty'
+  pod 'Masonry'
+  pod 'SDCycleScrollView'
   # Pods for LuckyWheel
 pod 'Masonry'
   target 'LuckyWheelTests' do
